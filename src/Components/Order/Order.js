@@ -3,7 +3,7 @@ import './Order.css';
 
 const Order = ({ cart }) => {
 
-    console.log(cart)
+    // console.log(cart)
     let total = 0;
     let shipping = 0;
     for (const p of cart) {
